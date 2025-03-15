@@ -1,0 +1,45 @@
+h1{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+body{
+    /* background-image: url(dog3.jpg) */
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background-color: blanchedalmond;
+}
+img{
+    width: 400px;
+    height: auto;
+}
+img.a:hover{
+    box-shadow: 4px 4px 10px red;
+    filter: blur(3px)
+}
+img.b:hover{
+    box-shadow:  4px 4px 10px red;
+    filter: brightness(40%);
+}
+img.c:hover{
+    box-shadow:  4px 4px 10px red;
+    filter: sepia();
+}
+img.d:hover{
+    box-shadow: 4px 4px 10px red;
+   filter: grayscale(40%);
+}
+img.e:hover{
+    box-shadow: 4px 4px 10px red;
+   filter: grayscale(80%);
+}
+img.f:hover{
+    box-shadow: 4px 4px 10px red;
+ filter: invert();
+}
+img.hover{
+    box-shadow: :hover
+    filter: blur(1px)
+}
